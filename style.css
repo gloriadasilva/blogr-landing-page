@@ -34,13 +34,15 @@ header{
 .connectArrow{
     transition: transform 0.3s ease;
 }
-.connectArrow:hover{
+/*.connectArrow:hover{
     transform: rotate(180 deg);
-}
+}*/
 .connectChildren{
     display: block;
     position: absolute;
+    /*position: relative;*/
     top: 1em;
+    background-color: #fff;
     color: #232323;
     visibility: hidden;
     height: 0;
@@ -55,6 +57,13 @@ header{
     margin-top: 3em;
     margin-bottom: 3em;
     color: #232424;
+}
+.start{
+    padding: 1em;
+    border-radius: 2em;
+    border: 1px solid white;
+    color: hsl(355, 100%, 74%);
+    background-color: #fff;
 }
 
 
@@ -84,9 +93,6 @@ header{
     }
     .dark{
         display: block;
-    }
-    .closed{
-        background-color: blue;
     }
 
     .navList{
@@ -277,9 +283,16 @@ header{
     }
     .str{
         font-weight: 600;
-        font-size: 1.5em;
+        font-size: 1em;
         margin-bottom: 1em;
         margin-top: 1dem;
+    }
+    .com{
+        font-weight: 600;
+        font-size: 1em;
+        margin-bottom: 1em;
+        margin-top: 1.2em;
+
     }
 
 
@@ -321,6 +334,7 @@ header{
         padding: 1em;
         gap: 1em;
         margin-top: 0.5em;
+        color: #fff;
     }
     li{
         display: flex;
@@ -482,6 +496,9 @@ header{
     .foot{
         margin-top: 3em;
     }
+    .col{
+        color: #fff;
+    }
     .un-list{
         display: flex;
         width: 30%;
@@ -532,6 +549,7 @@ header{
         justify-content: space-between;
     }
     .child-list{
+        color: white;
         display: flex;
         padding: 1em;
         gap: 1em;
@@ -548,7 +566,7 @@ header{
         left: 30%;
         line-height: 1.5em;
         margin-bottom: 0;
-        background-color: #fff;
+        background-color: white;
         width: 10em;
         text-align: center;
         padding: 1em;
@@ -723,6 +741,9 @@ header{
     .foot{
         margin-top: 3em;
     }
+    .col{
+        color: #fff;
+    }
     .un-list{
         display: flex;
         width: 30%;
@@ -758,143 +779,4 @@ header{
 
 
 
-  /*.nav-header{
-    display: flex;
-    padding-left: 2em;
-}
-.menu{
-    display: none;
-}
-.nav-list{
-    display: flex;
-    justify-content: space-between;
-}
-.nav-list:hover{
-    cursor: pointer;
-}
-.list{
-    display: flex;
-    gap: 3em;
-    padding: 1em;
-}
-.arrow{
-    margin-left: 0.2em;
-}
-.login{
-    color: #fff;
-    padding: 1em;
-    position: relative;
-    left: 80%;
-}
-.btn-sign{
-    position: relative;
-    left: 82%;
-    margin: 1em;
-    width: 4.5em;
-    height: 2em;
-    border-radius: 1em;
-    color: black;
-    border: 1px solid hotpink;
-}
-.btn-sign:hover{
-    background-color: hsl(355, 100%, 74%);
-    border: 1px solid white;
-    cursor: pointer;
-    transition: 250ms;
-}
-
-.modern{
-    color: white;
-    text-align: center;
-    margin-top: 1em;
-}
-.grow{
-    text-align: center;
-    color: white;
-}
-.btns{
-    text-align: center;
-    margin-top: 1em;
-}
-.start{
-    padding: .5em;
-    border-radius: 1em;
-    color: hsl(355, 100%, 74%);
-    border: 1px solid white;
-    font-weight: bold;
-}
-.learn{
-    padding: .5em;
-    border-radius: 1em;
-    color: white;
-    background-color: hsl(355, 100%, 74%);
-    border: 1px solid white;
-    cursor: pointer;
-}
-
-/* Mobile screen Menu 
-
-@media(max-width: 30rem){
-   .desktop{
-        display: none;
-    }
-   /* .menu{
-        display: block;
-    }
-    .nav-list{
-        display: block;   
-        position: relative;
-        top: 8em;
-        background-color: #fff;
-        line-height: 2em;
-        width: 80%;
-        right: 25%;
-        height: 12em;
-        text-align: center;
-        padding-left: 1em;
-    }
-    .list{
-        display: block;
-        text-align: center;
-    }
-    a{
-        color: #232323; 
-
-    }
-    .login, .btn-sign{
-        position:0;
-        left: 0;
-        right: 0;
-        padding: 0;
-        margin-left: 1em;
-        color: #232323;   
-        text-align: center;
-
-    }
-    
-    .modern{
-        color: white;
-        text-align: center;
-        width: 10em;
-        
-    }
-    
-
-}
-
-
-
-
-
-
-
-
-
-
-/* Desktop screen
-@media(max-width: 60rem){
-    
-    
-
-}
-*?
+ 
