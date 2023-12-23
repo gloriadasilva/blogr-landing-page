@@ -169,11 +169,10 @@ header{
     .up{
         text-align: left;
         left: 37%;
-        position: fixed;
+        position: relative;
         margin-top: 0.5em;
     
     }
-
 
     .dark{
         display: inline-block;
