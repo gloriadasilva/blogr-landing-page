@@ -489,7 +489,7 @@ header{
         padding-bottom: 1em;
         display: flex;
         gap: 5em;
-        padding-left: 20em;
+        padding-left: 10em;
         padding-bottom: 3em;
     }
     .foot{
@@ -506,7 +506,8 @@ header{
         margin-left: 2em;
         cursor: pointer;
     }
-    .str{
+    .str,
+    .com{
         font-weight: 600;
         font-weight: 1.5em;
         margin-bottom: 1em;
@@ -750,11 +751,13 @@ header{
         gap: 2em;
         cursor: pointer;
     }
-    .str{
+    .str, 
+    .com{
         font-weight: 600;
         font-weight: 1.5em;
         margin-bottom: 1em;
     }
+
     
 
 
